@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: python-container
-          image: myapp
+          image: haithammahajna/netflix:latest
           ports:
             - containerPort: 3031
 ---
