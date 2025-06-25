@@ -32,7 +32,8 @@ jobs:
           # To keep the app running in the background independently on the terminal session you are logging to, configure it as a Linux service.
     
           ssh -i mykey.pem ubuntu@$EC2_PUBLIC_IP
-          cd app "bash ~/app/deploy.sh"
+          cd app 
+          bash ~/app/deploy.sh
           
           
           
